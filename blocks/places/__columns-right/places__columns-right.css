@@ -1,0 +1,9 @@
+.places__columns-right {
+    max-width: 49%;
+}
+
+@media screen and (max-width: 425px) {
+    .places__columns-right {
+        max-width: 100%;
+    }
+}

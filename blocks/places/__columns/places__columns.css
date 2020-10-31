@@ -1,0 +1,23 @@
+.places__columns {
+    column-count: 2;
+    max-width: 90%;
+    margin: auto;
+    margin-bottom: 56px;
+    display: flex;
+}
+
+
+@media screen and (max-width: 768px) {
+    .places__columns {
+        max-width: 93%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .places__columns {
+        max-width: 90%;
+        column-count: 1;
+        display: block;
+        margin: 24px auto;
+    }
+}

@@ -1,0 +1,35 @@
+@import url(./__title/lead__title.css);
+@import url(./__subtitle/lead__subtitle.css);
+@import url(./__image/lead__image.css);
+@import url(./__caption/lead__caption.css);
+
+/* designed for standard laptop 1024px - 1280px */
+
+.lead {
+    max-width: 90%;
+    padding: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+
+@media screen and (min-width: 1280px) {
+    .lead {
+        max-width: 984px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .lead {
+        max-width: 100%;
+    }
+}

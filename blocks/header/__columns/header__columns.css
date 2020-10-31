@@ -1,0 +1,5 @@
+.header__columns {
+    column-count: 2;
+    display: flex;
+    justify-content: space-between;
+}

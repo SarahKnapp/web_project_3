@@ -1,0 +1,30 @@
+.cover__background {
+    background-image: url(../../../images/cover-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    text-decoration: none;
+    min-height: 640px;
+    max-height: 800px;
+    display: flex;
+}
+
+@media screen and (min-width: 1280px) {
+    .cover__background {
+        min-height: 740px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__background {
+        min-height: 480px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .cover__background {
+        min-height: 200px;
+    }
+}

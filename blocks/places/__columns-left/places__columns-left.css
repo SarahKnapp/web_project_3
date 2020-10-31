@@ -1,0 +1,25 @@
+.places__columns-left {
+    max-width: 50%;
+    margin-right: 32px;
+}
+
+@media screen and (min-width: 1280px) {
+    .places__columns-left {
+        max-width: 48.7%;
+        margin-right: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .places__columns-left {
+        margin-right: 28px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .places__columns-left {
+        margin: 0;
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,37 @@
+@import url(./__list/intro__list.css);
+@import url(./__span-accent/intro__span-accent.css);
+@import url(./__span-accent/intro__span-accent.css);
+@import url(./__subtitle/intro__subtitle.css);
+@import url(./__text/intro__text.css);
+@import url(./__title/intro__title.css);
+
+/* designed for standard laptop 1024px - 1280px */
+
+.intro {
+    max-width: 928px;
+    margin: 92px auto;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+}
+
+@media screen and (min-width: 1280px) {
+    .intro {
+        max-width: 984px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro {
+        max-width: 93%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .intro {
+        max-width: 288px;
+        margin-top: 64px;
+        margin-bottom: 64px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

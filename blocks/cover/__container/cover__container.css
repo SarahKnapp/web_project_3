@@ -1,0 +1,7 @@
+.cover__container {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin: auto;
+}

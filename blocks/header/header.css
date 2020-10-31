@@ -1,0 +1,26 @@
+@import url(./__columns/header__columns.css);
+@import url(./__lang-link/header__lang-link.css);
+@import url(./__lang-links/header__lang-links.css);
+
+/* designed for standard laptop 1024px - 1280px */
+
+.header {
+  margin: 34px auto 50px;
+  max-width: 90%;
+  max-height: 44px;
+  font-family: 'Inter', sans-serif;
+}
+
+@media screen and (min-width: 1280px) {
+  .header {
+    max-width: 984px;
+    margin-bottom: 58px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header {
+    margin-top: 20px;
+    max-height: 36px;
+  }
+}
