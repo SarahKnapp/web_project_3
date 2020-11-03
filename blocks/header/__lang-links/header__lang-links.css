@@ -1,4 +1,10 @@
 .header__lang-links {
-    display: flex;
-    padding-inline-start: 0;
+  display: flex;
+  padding-inline-start: 0;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 425px) {
+
+  .header__lang-links {}
 }

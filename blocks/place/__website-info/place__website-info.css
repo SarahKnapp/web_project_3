@@ -1,0 +1,10 @@
+.place__website-info {
+  grid-area: website;
+  align-self: end;
+}
+
+@media screen and (max-width: 690px) {
+  .place__website-info {
+    display: none;
+  }
+}

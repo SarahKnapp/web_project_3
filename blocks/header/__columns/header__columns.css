@@ -1,5 +1,13 @@
 .header__columns {
-    column-count: 2;
-    display: flex;
-    justify-content: space-between;
+  column-count: 2;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 425px) {
+  .header__columns {
+    max-height: 36px;
+    align-items: center;
+
+  }
 }

@@ -1,14 +1,21 @@
+@import url(./_active/header__lang-link_active.css);
+
 .header__lang-link {
-    max-width: 29px;
-    list-style-type: none;
-    max-height: 28px;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 1.17;
-    padding-left: 18px;
-    color: #FFFFFF;
+  max-width: 29px;
+  max-height: 28px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.17;
+  padding-left: 18px;
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
-.header__lang-link:active {
-    text-decoration-line: underline;
+
+
+@media screen and (max-width: 425px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 1.1;
+  }
 }

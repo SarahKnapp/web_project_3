@@ -8,30 +8,30 @@
 /* designed for standard laptop 1024px - 1280px */
 
 .intro {
-    max-width: 928px;
-    margin: 92px auto;
-    position: relative;
-    font-family: 'Inter', sans-serif;
+  max-width: 90%;
+  margin: 92px auto;
+  position: relative;
+  font-family: 'Inter', Arial, sans-serif;
 }
 
 @media screen and (min-width: 1280px) {
-    .intro {
-        max-width: 984px;
-    }
+  .intro {
+    max-width: 76.85%;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .intro {
-        max-width: 93%;
-    }
+  .intro {
+    max-width: 93%;
+  }
 }
 
 @media screen and (max-width: 425px) {
-    .intro {
-        max-width: 288px;
-        margin-top: 64px;
-        margin-bottom: 64px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+  .intro {
+    max-width: 288px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

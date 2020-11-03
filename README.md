@@ -6,4 +6,4 @@ This project is just being used for practice and will serve no functional purpos
 
 This project was built using CSS and HTML and relies on the BEM methodology.
 
-[More Details Can be Found on Github](https://github.com/SarahKnapp/web_project_3)
+Find the project on [Github Pages](https://sarahknapp.github.io/web_project_3/)

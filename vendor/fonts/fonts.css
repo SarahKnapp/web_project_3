@@ -6,20 +6,6 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-
-
-}
-
-@font-face {
-  src: url(../../vendor/fonts/Inter/Inter_Web/Inter-BlackItalic.woff) format('woff'),
-    url(../../vendor/fonts/Inter/Inter_Web/Inter-BlackItalic.woff2) format('woff2');
-  font-family: 'Inter';
-  font-style: italic;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-
-
 }
 
 @font-face {
