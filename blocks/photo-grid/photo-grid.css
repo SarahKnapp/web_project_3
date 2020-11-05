@@ -18,7 +18,7 @@
     grid-template-columns: repeat(4, auto);
     grid-template-rows: auto;
     grid-gap: 16px;
-    max-width: 92.5%;
+    max-width: 1184px;
   }
 }
 

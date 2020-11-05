@@ -5,13 +5,13 @@
 
 @media screen and (max-width: 690px) {
   .place__description {
-    max-width: 90%;
+    margin: 0 16px;
   }
 }
 
 
 @media screen and (max-width: 425px) {
   .place__description {
-    max-width: 100%;
+    margin-left: 16px;
   }
 }

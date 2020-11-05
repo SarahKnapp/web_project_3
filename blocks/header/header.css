@@ -2,19 +2,21 @@
 @import url(./__lang-link/header__lang-link.css);
 @import url(./__lang-links/header__lang-links.css);
 @import url(./__logo/header__logo.css);
+@import url(./__lang-link/_active/header__lang-link_active.css);
+
 
 /* designed for standard laptop 1024px - 1280px */
 
 .header {
   margin: 34px auto 50px;
   max-width: 90%;
-  max-height: 44px;
+  min-height: 44px;
   font-family: 'Inter', Arial, sans-serif;
 }
 
 @media screen and (min-width: 1280px) {
   .header {
-    max-width: 76.85%;
+    max-width: 984px;
     margin-bottom: 58px;
   }
 }
